@@ -232,6 +232,8 @@ on post-fs-data
     mkdir /data/media 0770 media_rw media_rw
     chmod 0660 /data/misc/wifi/p2p_supplicant.conf
 
+    # Fix permission for telephony
+    chmod 0644 /proc/cmdline
 
 # dhcp server
     mkdir /data/misc/dhcp 0770 dhcp wifi
