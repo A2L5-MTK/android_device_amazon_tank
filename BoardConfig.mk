@@ -82,6 +82,9 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt8127
 # SELinux
 include device/mediatek/sepolicy/sepolicy.mk
 
+# Seccomp
+BOARD_SECCOMP_POLICY := $(DEVICE_PATH)/seccomp-policy
+
 # Shims
 LINKER_FORCED_SHIM_LIBS += \
     /system/bin/thermald|libshim_thermal.so \
