@@ -99,6 +99,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libshim_asp \
     libshim_log \
+    libshim_stagefright \
     libshim_thermal \
     libshim_ui \
     libshim_wvm
