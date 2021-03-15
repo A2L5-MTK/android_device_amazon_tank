@@ -41,6 +41,14 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 include $(BUILD_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
+LOCAL_SRC_FILES := GraphicBuffer.cpp
+LOCAL_SHARED_LIBRARIES := libui
+LOCAL_MODULE := libshim_ui
+LOCAL_MODULE_TAGS := optional
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_SHARED_LIBRARY)
+
+include $(CLEAR_VARS)
 LOCAL_SRC_FILES := wvm.cpp
 LOCAL_SHARED_LIBRARIES := libstagefright_foundation liblog libmedia libcutils
 LOCAL_MODULE := libshim_wvm
