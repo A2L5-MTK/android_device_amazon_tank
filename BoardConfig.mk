@@ -45,6 +45,9 @@ TARGET_HARDWARE_3D := true
 TARGET_USES_ION := true
 USE_OPENGL_RENDERER := true
 
+# Include
+TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
+
 # Kernel
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive
