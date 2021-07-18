@@ -20,6 +20,10 @@ DEVICE_PATH := device/amazon/tank
 ## Vendor Blobs
 $(call inherit-product, vendor/amazon/tank/tank-vendor.mk)
 
+# AAPT
+PRODUCT_AAPT_CONFIG := xhdpi
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
+
 # ATV
 PRODUCT_IS_ATV_SDK := true
 PRODUCT_CHARACTERISTICS := tv,nosdcard
