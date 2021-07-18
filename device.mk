@@ -97,11 +97,7 @@ PRODUCT_PACKAGES += \
 
 # TV
 PRODUCT_PACKAGES += \
-    CMLeanbackCustomizer \
-    LiveTv \
-    TvProvider \
-    TvSettings \
-    tv_input.default
+    CMLeanbackCustomizer
 
 # USB
 PRODUCT_PACKAGES += \
