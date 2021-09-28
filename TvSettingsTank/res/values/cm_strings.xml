@@ -37,7 +37,7 @@
     <string name="show_dev_already_cm">No need, you have already enabled development settings.</string>
 
     <!-- Description text for bluetooth device pairing instructions. [CHAR LIMIT=150] -->
-    <string name="accessories_add_bluetooth_inst_cm">To start using LineageOS make sure your Bluetooth device is in pairing mode. For Nexus Remote this is done by pressing back and home simultaneously.</string>
+    <string name="accessories_add_bluetooth_inst_cm">Put your device into pairing mode. For Amazon Fire TV Remote hold home button until you see it on the screen.</string>
 
     <!-- Setting checkbox title for root access -->
     <string name="root_access">Root access</string>
