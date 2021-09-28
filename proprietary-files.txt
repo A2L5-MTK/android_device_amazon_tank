@@ -1,5 +1,5 @@
 #
-# Vendor Blobs for tank
+# Vendor Blobs for tank - full_tank-user 5.1.1 LVY48F 288.6.6.8_user_668700820 release-keys
 #
 
 # ATV Apps - fugu
@@ -96,7 +96,7 @@ vendor/lib/mediadrm/libwvdrmengine.so
 etc/firmware/ROMv2_patch_1_0_hdr.bin
 etc/firmware/ROMv2_patch_1_1_hdr.bin
 etc/firmware/WMT_SOC.cfg
-vendor/firmware/BCM43569A2_001.003.004.0172.0000_Generic_UART_40MHz_fcbga_BU_AmazonTank.hcd
+vendor/firmware/BCM43569A2_001.003.004.1001.0000_Generic_UART_40MHz_fcbga_BU_AmazonTank.hcd
 vendor/firmware/brcm/bcm43569a2-firmware-test.bin
 vendor/firmware/brcm/bcm43569a2-firmware.bin
 vendor/firmware/brcm/bcm43569a2.nvm
