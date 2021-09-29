@@ -17,6 +17,12 @@
 ## Device Path
 DEVICE_PATH := device/amazon/tank
 
+## Inherit dalvik heap
+$(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
+
+## Inherit hwui memory
+$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
+
 ## Vendor Blobs
 $(call inherit-product, vendor/amazon/tank/tank-vendor.mk)
 

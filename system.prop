@@ -27,10 +27,6 @@ ro.hdmi.device_type=4
 
 # HWUI
 debug.hwui.render_dirty_regions=false
-ro.hwui.texture_cache_size=45
-ro.hwui.layer_cache_size=31
-ro.hwui.r_buffer_cache_size=8
-ro.hwui.dt_cache_size=200
 
 # MediaTek
 mtk_in_house_tee_support=true
