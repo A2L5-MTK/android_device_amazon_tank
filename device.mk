@@ -107,6 +107,7 @@ PRODUCT_PACKAGES += \
 
 # Wifi
 PRODUCT_PACKAGES += \
+    bcmdhd_module \
     libwpa_client \
     hostapd \
     wpa_supplicant \

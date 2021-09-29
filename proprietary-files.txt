@@ -171,4 +171,3 @@ lib/hw/thermal.mt8127.so
 # Wifi
 etc/wifi/p2p_supplicant_overlay.conf
 etc/wifi/wpa_supplicant_overlay.conf
-lib/modules/bcmdhd.ko
