@@ -116,6 +116,9 @@ chmod 0660 /sys/devices/platform/bluetooth_rfkill/rfkill/rfkill0/state
 #
 # Connectivity related device nodes & configuration (end)
 
+on property:persist.sys.hdmi.resolution=11
+    setprop persist.sys.hdmi.resolution Max
+
 on boot
     export SECONDARY_STORAGE_USB /storage/usbotg
     # Refer to http://source.android.com/devices/tech/storage/index.html
