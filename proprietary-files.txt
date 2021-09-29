@@ -52,12 +52,15 @@ lib/libMtkOmxMp3Dec.so
 lib/libMtkOmxVdec.so
 lib/libMtkOmxVenc.so
 lib/libSwJpgCodec.so
+lib/libaed.so
+lib/libdrmplayreadydecryptor.so
 lib/libgui_ext.so
 lib/libmhalImageCodec.so
 lib/libmmprofile.so
 lib/libmp2dec_sa.ca7.so
 lib/libmp2dec_sb.ca7.so
 lib/libmp4enc_sa.ca7.so
+lib/libmtkjpeg.so
 lib/libstagefrighthw.so
 lib/libvc1dec_sa.ca7.so
 lib/libvcodec_oal.so
