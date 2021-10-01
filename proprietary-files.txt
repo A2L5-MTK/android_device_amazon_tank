@@ -53,7 +53,6 @@ lib/libMtkOmxVdec.so
 lib/libMtkOmxVenc.so
 lib/libSwJpgCodec.so
 lib/libaed.so
-lib/libdrmplayreadydecryptor.so
 lib/libgui_ext.so
 lib/libmhalImageCodec.so
 lib/libmmprofile.so
@@ -77,19 +76,19 @@ bin/amzn_drmprov_tool
 bin/rpmb_svc
 bin/kisd
 lib/libdrmmtkutil.so
+lib/libdrmplayreadydecryptor.so
 lib/libstlport.so
 lib/libtz_uree.so
 lib/liburee_meta_drmkeyinstall_v2.so
+lib/libplayready.so
 lib/hw/amzn_dha.mt8127.so
 lib/hw/amzn_drmprov.mt8127.so
 vendor/lib/drm/libdrmctaplugin.so|2dd72f42e0b40c3960cf609de8d092b773572498
 vendor/lib/drm/libdrmmtkplugin.so|734589ce0771e93e7d7936f5899548df58b396a1
-vendor/lib/mediadrm/libplayreadydrmplugin.so|7e2c2228adb73c8ed241c8a2675026dff11c1b6a
 vendor/lib/mediadrm/libwvdrmengine.so|271de7687df970a9ceadbdc3fa02f32547e730e4
 vendor/lib/lib_uree_mtk_modular_drm.so|2b7d9231b0a256161e35a64ca86da86c00375ea1
 vendor/lib/lib_uree_mtk_video_secure_al.so|a5fbe132a63ccf3d3b595e83c46707e2bd48895a
 vendor/lib/liboemcrypto.so|33ed5f4a5424dd12bce863de96cfd5e627df8487
-vendor/lib/libplayready.so|578aded81b2dc716d54ed933e60a44cf9ff43f31
 
 # Firmware
 etc/firmware/ROMv2_patch_1_0_hdr.bin
