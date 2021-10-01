@@ -33,8 +33,8 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 include $(BUILD_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
-LOCAL_SRC_FILES := stagefright_shim.cpp
-LOCAL_SHARED_LIBRARIES := libstagefright
+LOCAL_SRC_FILES := stagefright_shim.cpp TimedEventQueue.cpp
+LOCAL_SHARED_LIBRARIES := libstagefright liblog
 LOCAL_MODULE := libshim_stagefright
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
