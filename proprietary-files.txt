@@ -13,7 +13,6 @@
 -priv-app/TV/TV.apk|fe34e4c2d08a2b148379e45d3fff7591de0a700f
 
 # Audio
-etc/audio_effects.conf
 etc/audio_policy.conf
 lib/hw/audio.primary.mt8127.so
 lib/hw/audio.sco.mt8127.so
@@ -31,6 +30,7 @@ lib/libmsbc_mtk.so
 lib/libmtklimiter.so
 lib/libmtkshifter.so
 lib/libspeech_enh_lib.so
+vendor/etc/audio_effects.conf
 vendor/lib/soundfx/libswdap.so
 vendor/lib/libdlb_converter.so
 
