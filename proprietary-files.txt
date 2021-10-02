@@ -33,6 +33,7 @@ lib/libspeech_enh_lib.so
 vendor/etc/audio_effects.conf
 vendor/lib/soundfx/libswdap.so
 vendor/lib/libdlb_converter.so
+vendor/lib/libdlbdapstorage.so
 
 # Bluetooth
 etc/bluetooth/auto_pair_devlist.conf
